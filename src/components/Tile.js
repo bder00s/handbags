@@ -7,7 +7,6 @@ function Tile({children, tileImage, tileAltText, tileTitle,tileText}) {
             {tileTitle && <h2>{tileTitle}</h2>}
             {tileText &&<p>{tileText}</p>}
             {children}
-
         </section>
 
     )
