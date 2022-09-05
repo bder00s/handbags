@@ -4,8 +4,8 @@ function Tile({children, tileImage, tileAltText, tileTitle,tileText}) {
     return (
         <section>
             {tileImage && <img src={tileImage} alt={tileAltText}/>}
-            {tileTitle && <h2>{tileTitle}</h2>}
-            {tileText &&<p>{tileText}</p>}
+            <h2>{tileTitle}</h2>
+            <p>{tileText}</p>
             {children}
         </section>
 

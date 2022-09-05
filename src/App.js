@@ -88,16 +88,14 @@ function App() {
 
         <Tile tileImage={women} tileAltText="happy women" />
 
-        <Tile tileTitle="Our story">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+        <Tile tileTitle="Our story"
+              tileText= "ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
             atque consequatur dignissimos et eveniet exercitationem, ipsa ipsum
             necessitatibus, nisi odio officiis quae quidem repudiandae,
             similique temporibus! Aspernatur distinctio minus mollitia officia
             praesentium voluptatem! Aperiam atque dolores inventore iure,
-            provident reiciendis?
-          </p>
-        </Tile>
+            provident reiciendis?"
+      />
       </footer>
     </>
   );
